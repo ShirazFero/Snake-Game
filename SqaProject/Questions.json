@@ -1,0 +1,208 @@
+{
+	"questions": [
+		{
+			"question": "What is JSON?",
+			"level": "1",
+			"answers": [
+				"website",
+				"a popular means of transferring data between servers and clients",
+				"Journalistic Stream Of News",
+				"teacher name"
+			],
+			"team": "panda",
+			"correct_ans": "2"
+		},
+		{
+			"question": "An example of Antipattern is:",
+			"answers": [
+				"Big ball of mud",
+				"Cash cow",
+				"Pipeline",
+				"Poltergeists"
+			],
+			"correct_ans": "1",
+			"level": "3",
+			"team": "panda"
+		},
+		{
+			"question": "Maintenance risks are:",
+			"answers": [
+				"Schedule ",
+				"Low quality",
+				"Future maintenance difficulties",
+				"All the above"
+			],
+			"correct_ans": "4",
+			"level": "2",
+			"team": "panda"
+		},
+		{
+			"question": "Tools that used for unit testing?",
+			"level": "1",
+			"answers": [
+				"draw.io",
+				"JUnit",
+				"Xampp",
+				"Visual Paradigm"
+			],
+			"team": "panda",
+			"correct_ans": "2"
+		},
+		{
+			"question": "tool for version control is?",
+			"level": "1",
+			"answers": [
+				"big bucket",
+				"Turrent",
+				"visual paradigm",
+				"draw.io"
+			],
+			"team": "panda",
+			"correct_ans": "1"
+		},
+		{
+			"question": "Which of the following is a user requirements?",
+			"level": "1",
+			"answers": [
+				"system Architects",
+				"software developers",
+				"choise 3",
+				"choise 4"
+			],
+			"team": "panda",
+			"correct_ans": "1"
+		},
+		{
+			"question": "What is 'Singleton'?",
+			"level": "2",
+			"answers": [
+				"Common name for Non-functional requirements",
+				"a software design pattern that restricts the instantiation of a class to one object",
+				"a software design pattern that restricts the instantiation of a class to limited number of object",
+				"Common name for Domain requirements"
+			],
+			"team": "panda",
+			"correct_ans": "3"
+		},
+		{
+			"question": "Which of the following roles is not described as a core role in 'Scrum'?",
+			"level": "2",
+			"answers": [
+				"Product owner",
+				"Team",
+				"Product owner",
+				"architect"
+			],
+			"team": "panda",
+			"correct_ans": "4"
+		},
+		{
+			"question": "Which of the following plays a role in  Inspection Procedure?",
+			"answers": [
+				"Designer",
+				"SQA",
+				"Review Leader",
+				"Maintances oracle"
+			],
+			"correct_ans": "1",
+			"level": "3",
+			"team": "panda"
+		},
+		{
+			"question": "test driven developments includes?",
+			"level": "3",
+			"answers": [
+				"Software Testing",
+				"Regression Testing",
+				"Maintenance Testing",
+				"Code Testing"
+			],
+			"team": "panda",
+			"correct_ans": "2"
+		},
+		{
+			"question": "'Factory method', 'Strategy' and 'Adapter' are 3 kinds of:",
+			"level": "3",
+			"answers": [
+				"Cloud srevices",
+				"functional Requirements",
+				"agile methods",
+				"Design Patterns"
+			],
+			"team": "panda",
+			"correct_ans": "4"
+		},
+		{
+			"question": "Which of the following is not a 'Private cloud' advantage?",
+			"level": "3",
+			"answers": [
+				"High level of security",
+				"Customizable ",
+				"High performance",
+				"Low cost"
+			],
+			"team": "panda",
+			"correct_ans": "4"
+		},
+		{
+			"question": "'Windows Azure', 'Heruko' and 'force.com' are examples for:",
+			"level": "3",
+			"answers": [
+				"IaaS",
+				"SaaS ",
+				"PaaS",
+				"BaaS"
+			],
+			"team": "panda",
+			"correct_ans": "3"
+		},
+		{
+			"question": "Which of the following is a feature of a good software?",
+			"level": "3",
+			"answers": [
+				"stand alone system",
+				"entertainment",
+				"effiency",
+				"have a nice font"
+			],
+			"team": "panda",
+			"correct_ans": "3"
+		},
+		{
+			"question": "Which of the following is not an example for 'Antipattern' ?",
+			"level": "3",
+			"answers": [
+				"Big ball of mud",
+				"Cash cow",
+				"Pipeline",
+				"Poltergeists"
+			],
+			"team": "panda",
+			"correct_ans": "1"
+		},
+		{
+			"question": " Which of the following plays a role in  Inspection Procedure?",
+			"level": "3",
+			"answers": [
+				"Designer",
+				"SQA",
+				"Review Leader",
+				"Maintances oracle"
+			],
+			"team": "panda",
+			"correct_ans": "1"
+		},
+		{
+			"question": " what are the Maintenance risks?",
+			"level": "3",
+			"answers": [
+				"Schedule ",
+				"Low quality",
+				"Future maintenance difficulties",
+				"All the answers are correct"
+			],
+			"team": "panda",
+			"correct_ans": "4"
+		}
+	]
+}
