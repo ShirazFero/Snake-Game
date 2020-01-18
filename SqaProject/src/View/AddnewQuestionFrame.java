@@ -97,7 +97,7 @@ public class AddnewQuestionFrame extends javax.swing.JFrame {
         back.setBackground(new java.awt.Color(255, 255, 255));
         back.setFont(new java.awt.Font("Segoe UI Black", 1, 24)); // NOI18N
         back.setForeground(new java.awt.Color(255, 255, 255));
-        back.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/home.png"))); // NOI18N
+        back.setIcon(new ImageIcon(AddnewQuestionFrame.class.getResource("/images/ReturnHome.png"))); // NOI18N
         back.setToolTipText("Go Home");
         back.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {

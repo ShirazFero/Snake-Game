@@ -135,9 +135,9 @@ public class LoginFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Snake Game");
-        setMaximumSize(new java.awt.Dimension(1000, 600));
-        setMinimumSize(new java.awt.Dimension(1000, 600));
-        setPreferredSize(new java.awt.Dimension(1000, 600));
+        setMaximumSize(new java.awt.Dimension(920, 575));
+        setMinimumSize(new java.awt.Dimension(920, 575));
+        setPreferredSize(new java.awt.Dimension(920, 575));
         getContentPane().setLayout(null);
 
         logoTitle.setBackground(new java.awt.Color(255, 255, 255));
@@ -149,7 +149,7 @@ public class LoginFrame extends javax.swing.JFrame {
         back.setBackground(new java.awt.Color(255, 255, 255));
         back.setFont(new java.awt.Font("Segoe UI Black", 1, 24)); // NOI18N
         back.setForeground(new java.awt.Color(255, 255, 255));
-        back.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/home.png"))); // NOI18N
+        back.setIcon(new ImageIcon(LoginFrame.class.getResource("/images/ReturnHome.png"))); // NOI18N
         back.setToolTipText("Go Home");
         back.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -211,9 +211,9 @@ public class LoginFrame extends javax.swing.JFrame {
         getContentPane().add(jLabel4);
         jLabel4.setBounds(245, 335, 150, 30);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/addNewQuestion.png"))); // NOI18N
+        jLabel1.setIcon(new ImageIcon(LoginFrame.class.getResource("/images/logInAdmin.jpeg"))); // NOI18N
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(0, 0, 1000, 592);
+        jLabel1.setBounds(0, -17, 1010, 592);
 
         pack();
         setLocationRelativeTo(null);

@@ -15,6 +15,8 @@ import javax.swing.JFrame;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
+import javax.swing.ImageIcon;
+import javax.swing.JLabel;
 
 /**
  *
@@ -106,22 +108,22 @@ public class ScoreBoardFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Snake Game");
-        setMaximumSize(new java.awt.Dimension(1000, 600));
-        setMinimumSize(new java.awt.Dimension(1000, 600));
-        setPreferredSize(new java.awt.Dimension(1000, 600));
+        setMaximumSize(new java.awt.Dimension(920, 575));
+        setMinimumSize(new java.awt.Dimension(920, 575));
+        setPreferredSize(new java.awt.Dimension(920, 575));
         getContentPane().setLayout(null);
 
         logoTitle.setBackground(new java.awt.Color(255, 0, 51));
         logoTitle.setFont(new java.awt.Font("Gabriola", 2, 115)); // NOI18N
         logoTitle.setForeground(new java.awt.Color(0, 0, 0));
-        logoTitle.setText("Snake Game");
+        logoTitle.setText("Score Board");
         getContentPane().add(logoTitle);
-        logoTitle.setBounds(260, 35, 660, 100);
+        logoTitle.setBounds(259, 43, 660, 100);
 
         back.setBackground(new java.awt.Color(255, 255, 255));
         back.setFont(new java.awt.Font("Segoe UI Black", 1, 24)); // NOI18N
         back.setForeground(new java.awt.Color(255, 255, 255));
-        back.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/homeicon.png"))); // NOI18N
+        back.setIcon(new ImageIcon(ScoreBoardFrame.class.getResource("/images/ReturnHome.png"))); // NOI18N
         back.setToolTipText("Go Home");
         back.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -129,11 +131,11 @@ public class ScoreBoardFrame extends javax.swing.JFrame {
             }
         });
         getContentPane().add(back);
-        back.setBounds(30, 30, 70, 80);
+        back.setBounds(813, 43, 61, 68);
 
         jLabel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 3));
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(181, 180, 630, 320);
+        jLabel2.setBounds(179, 168, 631, 271);
 
         playersDetails.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 0, 153), new java.awt.Color(0, 0, 153), new java.awt.Color(0, 0, 102), new java.awt.Color(0, 51, 102)));
         playersDetails.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
@@ -172,11 +174,11 @@ public class ScoreBoardFrame extends javax.swing.JFrame {
         }
 
         getContentPane().add(scrollPane);
-        scrollPane.setBounds(180, 180, 630, 320);
+        scrollPane.setBounds(179, 168, 631, 271);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/background.jpg"))); // NOI18N
+        jLabel1.setIcon(new ImageIcon(ScoreBoardFrame.class.getResource("/images/scoreB.jpeg"))); // NOI18N
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(0, 0, 1000, 592);
+        jLabel1.setBounds(0, -13, 1010, 592);
 
         pack();
         setLocationRelativeTo(null);
